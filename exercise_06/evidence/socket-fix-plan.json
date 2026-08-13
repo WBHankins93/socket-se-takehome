@@ -1,0 +1,22 @@
+{
+  "target": "GHSA-cf4h-3jhx-xvhq",
+  "directDependencyUpgrades": [
+    {
+      "package": "underscore",
+      "detectedVersion": "1.9.1",
+      "fixedVersion": "1.12.1"
+    },
+    {
+      "package": "grunt-retire",
+      "detectedVersion": "0.3.12",
+      "fixedVersion": "1.0.2"
+    }
+  ],
+  "appliedTransitiveUpgrades": [
+    {
+      "package": "retire",
+      "detectedVersion": "1.1.6",
+      "fixedVersion": "1.2.11"
+    }
+  ]
+}
